@@ -58,8 +58,10 @@
             this.ofdOpenImage = new System.Windows.Forms.OpenFileDialog();
             this.sfdSave = new System.Windows.Forms.SaveFileDialog();
             this.ofdOpenData = new System.Windows.Forms.OpenFileDialog();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -80,13 +82,13 @@
             this.dgvList.Name = "dgvList";
             this.dgvList.RowTemplate.Height = 21;
             this.dgvList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvList.Size = new System.Drawing.Size(640, 154);
+            this.dgvList.Size = new System.Drawing.Size(707, 154);
             this.dgvList.TabIndex = 3;
             this.dgvList.Click += new System.EventHandler(this.dgvList_Click);
             // 
             // pbImage
             // 
-            this.pbImage.Location = new System.Drawing.Point(538, 41);
+            this.pbImage.Location = new System.Drawing.Point(605, 41);
             this.pbImage.Name = "pbImage";
             this.pbImage.Size = new System.Drawing.Size(194, 200);
             this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,7 +98,7 @@
             // btListDelete
             // 
             this.btListDelete.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btListDelete.Location = new System.Drawing.Point(672, 247);
+            this.btListDelete.Location = new System.Drawing.Point(739, 247);
             this.btListDelete.Name = "btListDelete";
             this.btListDelete.Size = new System.Drawing.Size(60, 28);
             this.btListDelete.TabIndex = 0;
@@ -170,7 +172,7 @@
             this.rbSony.AutoSize = true;
             this.rbSony.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.rbSony.ForeColor = System.Drawing.SystemColors.Control;
-            this.rbSony.Location = new System.Drawing.Point(92, 142);
+            this.rbSony.Location = new System.Drawing.Point(6, 12);
             this.rbSony.Name = "rbSony";
             this.rbSony.Size = new System.Drawing.Size(82, 24);
             this.rbSony.TabIndex = 1;
@@ -183,7 +185,7 @@
             this.rbToshiba.AutoSize = true;
             this.rbToshiba.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.rbToshiba.ForeColor = System.Drawing.SystemColors.Control;
-            this.rbToshiba.Location = new System.Drawing.Point(160, 142);
+            this.rbToshiba.Location = new System.Drawing.Point(94, 12);
             this.rbToshiba.Name = "rbToshiba";
             this.rbToshiba.Size = new System.Drawing.Size(69, 24);
             this.rbToshiba.TabIndex = 2;
@@ -196,7 +198,7 @@
             this.rbEpic.AutoSize = true;
             this.rbEpic.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.rbEpic.ForeColor = System.Drawing.SystemColors.Control;
-            this.rbEpic.Location = new System.Drawing.Point(228, 142);
+            this.rbEpic.Location = new System.Drawing.Point(154, 12);
             this.rbEpic.Name = "rbEpic";
             this.rbEpic.Size = new System.Drawing.Size(72, 24);
             this.rbEpic.TabIndex = 3;
@@ -209,7 +211,7 @@
             this.rbCasablanca.AutoSize = true;
             this.rbCasablanca.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.rbCasablanca.ForeColor = System.Drawing.SystemColors.Control;
-            this.rbCasablanca.Location = new System.Drawing.Point(303, 142);
+            this.rbCasablanca.Location = new System.Drawing.Point(222, 11);
             this.rbCasablanca.Name = "rbCasablanca";
             this.rbCasablanca.Size = new System.Drawing.Size(133, 24);
             this.rbCasablanca.TabIndex = 4;
@@ -222,7 +224,7 @@
             this.rbIsland.AutoSize = true;
             this.rbIsland.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.rbIsland.ForeColor = System.Drawing.SystemColors.Control;
-            this.rbIsland.Location = new System.Drawing.Point(384, 142);
+            this.rbIsland.Location = new System.Drawing.Point(346, 12);
             this.rbIsland.Name = "rbIsland";
             this.rbIsland.Size = new System.Drawing.Size(81, 24);
             this.rbIsland.TabIndex = 5;
@@ -235,7 +237,7 @@
             this.rbOther.AutoSize = true;
             this.rbOther.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.rbOther.ForeColor = System.Drawing.SystemColors.Control;
-            this.rbOther.Location = new System.Drawing.Point(450, 142);
+            this.rbOther.Location = new System.Drawing.Point(420, 12);
             this.rbOther.Name = "rbOther";
             this.rbOther.Size = new System.Drawing.Size(81, 24);
             this.rbOther.TabIndex = 6;
@@ -257,7 +259,7 @@
             // btObama
             // 
             this.btObama.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btObama.Location = new System.Drawing.Point(607, 247);
+            this.btObama.Location = new System.Drawing.Point(674, 247);
             this.btObama.Name = "btObama";
             this.btObama.Size = new System.Drawing.Size(61, 28);
             this.btObama.TabIndex = 0;
@@ -268,7 +270,7 @@
             // btListAdd
             // 
             this.btListAdd.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btListAdd.Location = new System.Drawing.Point(538, 247);
+            this.btListAdd.Location = new System.Drawing.Point(605, 247);
             this.btListAdd.Name = "btListAdd";
             this.btListAdd.Size = new System.Drawing.Size(66, 28);
             this.btListAdd.TabIndex = 0;
@@ -279,7 +281,7 @@
             // btImageDelete
             // 
             this.btImageDelete.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btImageDelete.Location = new System.Drawing.Point(672, 7);
+            this.btImageDelete.Location = new System.Drawing.Point(739, 7);
             this.btImageDelete.Name = "btImageDelete";
             this.btImageDelete.Size = new System.Drawing.Size(60, 28);
             this.btImageDelete.TabIndex = 0;
@@ -290,7 +292,7 @@
             // btImageOpen
             // 
             this.btImageOpen.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btImageOpen.Location = new System.Drawing.Point(607, 7);
+            this.btImageOpen.Location = new System.Drawing.Point(674, 7);
             this.btImageOpen.Name = "btImageOpen";
             this.btImageOpen.Size = new System.Drawing.Size(58, 28);
             this.btImageOpen.TabIndex = 0;
@@ -303,14 +305,14 @@
             this.rtbReport.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbReport.Location = new System.Drawing.Point(92, 179);
             this.rtbReport.Name = "rtbReport";
-            this.rtbReport.Size = new System.Drawing.Size(440, 96);
+            this.rtbReport.Size = new System.Drawing.Size(507, 96);
             this.rtbReport.TabIndex = 7;
             this.rtbReport.Text = "";
             // 
             // btExit
             // 
             this.btExit.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btExit.Location = new System.Drawing.Point(652, 442);
+            this.btExit.Location = new System.Drawing.Point(719, 442);
             this.btExit.Name = "btExit";
             this.btExit.Size = new System.Drawing.Size(80, 28);
             this.btExit.TabIndex = 0;
@@ -356,7 +358,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(534, 12);
+            this.label7.Location = new System.Drawing.Point(601, 12);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 20);
             this.label7.TabIndex = 2;
@@ -370,19 +372,29 @@
             // 
             this.ofdOpenData.FileName = "openFileDialog1";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rbOther);
+            this.groupBox1.Controls.Add(this.rbSony);
+            this.groupBox1.Controls.Add(this.rbEpic);
+            this.groupBox1.Controls.Add(this.rbIsland);
+            this.groupBox1.Controls.Add(this.rbToshiba);
+            this.groupBox1.Controls.Add(this.rbCasablanca);
+            this.groupBox1.Location = new System.Drawing.Point(92, 131);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(507, 42);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(744, 477);
+            this.ClientSize = new System.Drawing.Size(811, 477);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.rtbReport);
-            this.Controls.Add(this.rbOther);
-            this.Controls.Add(this.rbIsland);
-            this.Controls.Add(this.rbCasablanca);
-            this.Controls.Add(this.rbEpic);
-            this.Controls.Add(this.rbToshiba);
-            this.Controls.Add(this.rbSony);
             this.Controls.Add(this.dtpDate);
             this.Controls.Add(this.pbImage);
             this.Controls.Add(this.dgvList);
@@ -407,6 +419,8 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -443,6 +457,7 @@
         private System.Windows.Forms.OpenFileDialog ofdOpenImage;
         private System.Windows.Forms.SaveFileDialog sfdSave;
         private System.Windows.Forms.OpenFileDialog ofdOpenData;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
