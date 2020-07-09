@@ -56,6 +56,8 @@
             this.btListSave = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.ofdOpenImage = new System.Windows.Forms.OpenFileDialog();
+            this.sfdSave = new System.Windows.Forms.SaveFileDialog();
+            this.ofdOpenData = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
             this.SuspendLayout();
@@ -80,12 +82,14 @@
             this.dgvList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvList.Size = new System.Drawing.Size(640, 154);
             this.dgvList.TabIndex = 3;
+            this.dgvList.Click += new System.EventHandler(this.dgvList_Click);
             // 
             // pbImage
             // 
             this.pbImage.Location = new System.Drawing.Point(538, 41);
             this.pbImage.Name = "pbImage";
             this.pbImage.Size = new System.Drawing.Size(194, 200);
+            this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImage.TabIndex = 4;
             this.pbImage.TabStop = false;
             // 
@@ -334,6 +338,7 @@
             this.btListOpen.TabIndex = 0;
             this.btListOpen.Text = "開く";
             this.btListOpen.UseVisualStyleBackColor = true;
+            this.btListOpen.Click += new System.EventHandler(this.btListOpen_Click);
             // 
             // btListSave
             // 
@@ -344,6 +349,7 @@
             this.btListSave.TabIndex = 0;
             this.btListSave.Text = "保存";
             this.btListSave.UseVisualStyleBackColor = true;
+            this.btListSave.Click += new System.EventHandler(this.btListSave_Click);
             // 
             // label7
             // 
@@ -359,6 +365,10 @@
             // ofdOpenImage
             // 
             this.ofdOpenImage.FileName = "openFileDialog1";
+            // 
+            // ofdOpenData
+            // 
+            this.ofdOpenData.FileName = "openFileDialog1";
             // 
             // Form1
             // 
@@ -431,6 +441,8 @@
         private System.Windows.Forms.Button btListSave;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.OpenFileDialog ofdOpenImage;
+        private System.Windows.Forms.SaveFileDialog sfdSave;
+        private System.Windows.Forms.OpenFileDialog ofdOpenData;
     }
 }
 
